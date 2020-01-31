@@ -1,0 +1,92 @@
+body{
+			background: skyblue;
+			margin: 0;
+			padding: 0;
+		}
+		.header{
+			margin: 0;
+			background-image: linear-gradient(skyblue,blue);
+			border-radius: 6px;
+			padding: 20px;
+
+		}
+		.header a{
+			color: white;
+			font-size: 1.5vw;
+			text-decoration: none;
+			text-align: center;
+			margin: 100px;
+			
+
+		}
+		.header a:hover{
+			color: #000333;
+			background: #ddd;
+			cursor: pointer;
+			border-radius: 5px;
+
+		}
+		.banner{
+			width: 80%;
+			top: 0;
+			right: 0;
+			position: absolute;
+			height: 15vh;
+
+		}
+				.form{
+			display: grid;
+			grid-template-columns: auto auto;
+			border-bottom: 2px solid #fff;
+			color: white;
+
+		}
+		.form input[type="text"],select,input[type="password"]{
+			border-radius: 6px;
+			width: 300px; height: 30px;
+			border: 1px solid yellow;
+		}
+		input[type="submit"]{
+			justify-content: space-around;
+			width: 70px;
+			height: 30px;
+			background: red;
+		}
+		label{
+			color: white;
+			font-size: 18px;
+
+		}
+
+		.div2 .imageIn{
+		
+				text-align: center;
+				width: 100%;
+				color: white;
+		}
+
+		h1{
+			color: #fff;
+			text-align: center;
+
+		}
+		footer{
+			background: #000333;
+			padding: ;
+			display: grid;
+			grid-template-columns: auto auto auto;
+			color: white;
+			
+		}
+
+
+
+
+
+
+
+
+
+
+
+
